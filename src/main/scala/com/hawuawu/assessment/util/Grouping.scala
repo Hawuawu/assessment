@@ -2,7 +2,7 @@ package com.hawuawu.assessment.util
 
 import java.lang.Math.{max, min}
 
-import com.hawuawu.assessment.{AddressData, Group}
+import com.hawuawu.assessment.model.{AddressData, Group}
 
 trait Grouping {
   def createGroups(occupancyData: List[AddressData]) =

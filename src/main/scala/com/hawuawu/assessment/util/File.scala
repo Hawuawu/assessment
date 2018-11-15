@@ -1,6 +1,6 @@
 package com.hawuawu.assessment.util
 
-import com.hawuawu.assessment.AddressData
+import com.hawuawu.assessment.model.AddressData
 
 import scala.io.Source
 

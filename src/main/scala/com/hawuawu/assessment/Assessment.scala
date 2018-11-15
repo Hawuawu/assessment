@@ -2,9 +2,6 @@ package com.hawuawu.assessment
 
 import com.hawuawu.assessment.util.{File, Grouping}
 
-case class Group(groupdId: String, addressId: String, numberOfCustomers: Int, fromDate: Int, toDate: Int)
-case class AddressData( customerId: String, addressId: String, fromDate: Int, toDate: Int)
-
 object Assessment extends Grouping with File {
   def main(args: Array[String]) =  {
     val fileName = "address_data.csv"
