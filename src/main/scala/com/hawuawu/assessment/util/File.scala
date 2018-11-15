@@ -5,7 +5,7 @@ import com.hawuawu.assessment.model.AddressData
 import scala.io.Source
 
 trait File {
-  def loadAddressesFromResource(resource: String) =  {
+  def loadAddressesFromResource(resource: String): List[AddressData] =  {
     val addressLines = Source.fromResource(resource).getLines().drop(1)
     addressLines.map({ line =>
       val split = line.split(',')
