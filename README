@@ -3,8 +3,7 @@ Running assessment
 
 For running this small assessment, please install sbt and run following
 
-[source,bash]
-----
+```
 sbt test <- for test
 sbt run <- for running on supplied csv
-----
+```
