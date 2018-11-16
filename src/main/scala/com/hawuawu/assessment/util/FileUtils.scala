@@ -4,7 +4,7 @@ import com.hawuawu.assessment.model.AddressData
 
 import scala.io.Source
 
-trait File {
+trait FileUtils {
   def loadAddressesFromResource(resource: String): List[AddressData] =  {
     val addressLines = Source.fromResource(resource).getLines().drop(1)
     addressLines.map({ line =>

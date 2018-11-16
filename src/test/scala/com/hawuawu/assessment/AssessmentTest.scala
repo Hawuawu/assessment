@@ -1,9 +1,9 @@
 package com.hawuawu.assessment
 
-import com.hawuawu.assessment.util.{File, Grouping}
+import com.hawuawu.assessment.util.{FileUtils, Grouping}
 import org.scalatest.FlatSpec
 
-class AssessmentTest extends FlatSpec with Grouping with File {
+class AssessmentTest extends FlatSpec with Grouping with FileUtils {
   "Assessment" should "create groups in proper way" in {
 
     val fileName = "example.csv"
